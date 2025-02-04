@@ -12,6 +12,20 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\Backgrounds\church-2d.svg" />
+    <None Remove="Assets\Backgrounds\construction-2d.svg" />
+    <None Remove="Assets\Backgrounds\megaphone-2d.svg" />
+    <None Remove="Assets\Icons\bar-chart.svg" />
+    <None Remove="Assets\Icons\bottle.svg" />
+    <None Remove="Assets\Icons\church.svg" />
+    <None Remove="Assets\Icons\dove.svg" />
+    <None Remove="Assets\Icons\fire.svg" />
+    <None Remove="Assets\Icons\gem-stone.svg" />
+    <None Remove="Assets\Icons\praying-hands.svg" />
+    <None Remove="Assets\Icons\scroll.svg" />
+    <None Remove="Assets\Icons\worship.svg" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -36,6 +50,8 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.1742" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250108002" />
   </ItemGroup>
