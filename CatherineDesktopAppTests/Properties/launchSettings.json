@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CatherineDesktopAppTests (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CatherineDesktopAppTests (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
