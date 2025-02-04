@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CatherineDesktopApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CatherineDesktopApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
