@@ -22,6 +22,21 @@ namespace CatherineDesktopApp.Shared
             AppDataSubFolderName = $"CatherineDesktopApp",
             AppSeedUserName = "application_seed";
 
+        public const int
+            PriestFirstNamesMinLengthAttribute = 2,
+            PriestFirstNamesMaxLengthAttribute = 500,
+            PriestLastNamesMinLengthAttribute = 2,
+            PriestLastNamesMaxLengthAttribute = 500;
+
+        public const int
+            UserFirstNameMinLengthAttribute = 3,
+            UserFirstNameMaxLengthAttribute = 90,
+            UserUserNameMinLengthAttribute = 3,
+            UserUserNameMaxLengthAttribute = 16,
+            UserLastNameMinLengthAttribute = 3,
+            UserLastNameMaxLengthAttribute = 90,
+            UserPasswordMinLengthAttribute = 3,
+            UserPasswordMaxLengthAttribute = 32;
     }
 
     public class ResourceFiles

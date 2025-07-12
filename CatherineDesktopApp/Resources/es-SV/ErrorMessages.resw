@@ -39,4 +39,64 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+	<data name="PriestFirstNamesRequiredAttribute" xml:space="preserve">
+    <value>Los nombres del ministro son requeridos.</value>
+  </data>
+	<data name="PriestLastNamesRequiredAttribute" xml:space="preserve">
+    <value>Los apellidos del ministro son requeridos.</value>
+  </data>
+	<data name="PriestPriestTitleRequiredAttribute" xml:space="preserve">
+    <value>El título del ministro es obligatorio.</value>
+  </data>
+	<data name="PriestPositionRequiredAttribute" xml:space="preserve">
+    <value>El cargo del ministro es obligatorio.</value>
+  </data>
+	<data name="PriestFirstNamesMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en los nombres del ministro.</value>
+  </data>
+	<data name="PriestLastNamesMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en los apellidos del ministro.</value>
+  </data>
+	<data name="PriestFirstNamesMaxLengthAttribute" xml:space="preserve">
+    <value>Los nombres del ministro no pueden tener más de {0} caracteres.</value>
+  </data>
+	<data name="PriestLastNamesMaxLengthAttribute" xml:space="preserve">
+    <value>Los apellidos del ministro no pueden tener más de {0} caracteres.</value>
+  </data>
+	<data name="ChurchChurchNameRequiredAttribute" xml:space="preserve">
+    <value>El nombre del templo es requerido.</value>
+  </data>
+	<data name="ChurchChurchNameMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en el nombre del templo.</value>
+  </data>
+	<data name="ChurchChurchNameMaxLengthAttribute" xml:space="preserve">
+    <value>El nombre del templo no puede tener más de {0} caracteres.</value>
+  </data>
+	<data name="ChurchCityRequiredAttribute" xml:space="preserve">
+    <value>La ciudad del templo es requerida.</value>
+  </data>
+	<data name="ChurchCityMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en la ciudad del templo.</value>
+  </data>
+	<data name="ChurchCityMaxLengthAttribute" xml:space="preserve">
+    <value>La ciudad del templo no puede tener más de {0} caracteres.</value>
+  </data>
+	<data name="ChurchDepartmentRequiredAttribute" xml:space="preserve">
+    <value>El departamento del templo es requerido.</value>
+  </data>
+	<data name="ChurchDepartmentMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en el departamento del templo.</value>
+  </data>
+	<data name="ChurchDepartmentMaxLengthAttribute" xml:space="preserve">
+    <value>El departamento del templo no puede tener más de {0} caracteres.</value>
+  </data>
+	<data name="ChurchCountryRequiredAttribute" xml:space="preserve">
+    <value>El país del templo es requerido.</value>
+  </data>
+	<data name="ChurchCountryMinLengthAttribute" xml:space="preserve">
+    <value>Debe ingresar al menos {0} caracteres en el país del templo.</value>
+  </data>
+	<data name="ChurchCountryMaxLengthAttribute" xml:space="preserve">
+    <value>El país del templo no puede tener más de {0} caracteres.</value>
+  </data>
 </root>
