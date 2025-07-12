@@ -44,14 +44,11 @@ namespace CatherineDesktopApp.Data
                     {
                         case EntityState.Added:
                             entity.CreatedDate = now;
-                            entity.CreatedBy = Constants.AppSeedUserName;
                             entity.ModifiedDate = now;
-                            entity.ModifiedBy = Constants.AppSeedUserName;
                             break;
                         case EntityState.Modified:
                             Entry(entity).Property(x => x.CreatedDate).IsModified = false;
                             entity.ModifiedDate = now;
-                            entity.ModifiedBy = Constants.AppSeedUserName;
                             break;
                     }
                 }
